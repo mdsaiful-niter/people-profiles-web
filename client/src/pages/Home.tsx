@@ -118,8 +118,11 @@ export default function Home() {
 
       {/* Footer */}
       <div className="container mt-16 pt-8 border-t border-border">
-        <p className="text-center text-muted-foreground">
+        <p className="text-center text-muted-foreground mb-4">
           Total Profiles: <span className="font-semibold text-foreground">{people.length}</span>
+        </p>
+        <p className="text-center text-sm text-muted-foreground">
+          Web app created by <span className="font-semibold text-foreground">Saiful Islam</span> from <span className="font-semibold text-foreground">IPE'13</span>
         </p>
       </div>
     </div>
